@@ -41,11 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Facade\SystemClasses.cs" />
+    <Compile Include="Factory\ConcreteCreatorA.cs" />
+    <Compile Include="Factory\ConcreteCreatorB.cs" />
+    <Compile Include="Factory\ConcreteProductA.cs" />
+    <Compile Include="Factory\ConcreteProductB.cs" />
+    <Compile Include="Factory\ConcreteProductC.cs" />
+    <Compile Include="Factory\ConcreteProductD.cs" />
+    <Compile Include="Factory\Creator.cs" />
+    <Compile Include="Factory\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Factory\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Facade\Description.txt" />
   </ItemGroup>
