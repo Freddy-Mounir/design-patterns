@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory
 {
-   abstract class Creator
+   abstract public class Creator
     {
-        List<Product> Products;
+        public List<Product> Products;
         public Creator()
         {
             Products = FactoryMethod();
         }
-       abstract protected List<Product> FactoryMethod();
+       abstract public List<Product> FactoryMethod();
     }
 }

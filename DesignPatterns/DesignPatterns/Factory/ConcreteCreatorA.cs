@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory
 {
-    class ConcreteCreatorA : Creator
+    public class ConcreteCreatorA : Creator
     {
-        protected override List<Product> FactoryMethod()
+        public override List<Product> FactoryMethod()
         {
             List<Product> products = new List<Product>();
             products.Add(new ConcreteProductA());

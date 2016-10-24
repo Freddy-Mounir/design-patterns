@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory
 {
-    abstract class Product
+    abstract public class Product
     {
     }
 }
