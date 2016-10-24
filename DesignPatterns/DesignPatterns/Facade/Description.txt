@@ -1,0 +1,9 @@
+﻿Facade Design Pattern
+
+Description:
+	Facade design pattern introduces one interface to be used by the whole subsystem  , and this interface handles all the business needed and call all the needed classes.
+	For example , as mentioned in Gang of four website , mortgage class can use lot of other classes like , loans , customer and all needed objects from different classes 
+	but the developer will just interact with mortgage object.
+
+
+	We Create only one class for the main system , and all the subsystem classes objects will be defined and used through methods in the main system object.

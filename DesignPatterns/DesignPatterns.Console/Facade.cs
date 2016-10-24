@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns
+namespace DesignPatterns.Console
 {
-    public class Class1
+    class Facade
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
