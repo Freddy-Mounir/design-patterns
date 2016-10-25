@@ -13,7 +13,7 @@ namespace DesignPatterns.Singleton
         {
         }
 
-        public static Singleton CreateSingleton()
+        public static Singleton CreateInstance()
         {
             if (_singletonObject == null)
             {

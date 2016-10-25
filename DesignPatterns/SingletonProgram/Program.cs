@@ -11,8 +11,8 @@ namespace SingletonProgram
     {
         static void Main(string[] args)
         {
-            Singleton firstObject = Singleton.CreateSingleton();
-            Singleton secondObject = Singleton.CreateSingleton();
+            Singleton firstObject = Singleton.CreateInstance();
+            Singleton secondObject = Singleton.CreateInstance();
 
             // both objects should equal each other
             if (firstObject == secondObject)
