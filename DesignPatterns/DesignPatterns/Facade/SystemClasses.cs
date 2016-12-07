@@ -11,7 +11,7 @@ namespace DesignPatterns.Facade
         private SubSystemOne _subSystemOne;
         private SubSystemTwo _subSystemTwo;
         private SubSystemThree _subSystemThree;
-        public Facade()
+        public Facade() 
         {
             _subSystemOne = new SubSystemOne();
             _subSystemTwo = new SubSystemTwo();
